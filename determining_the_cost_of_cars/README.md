@@ -23,4 +23,4 @@ README.md
 Модель градиентного бустинга может долго обучаться, поэтому измените у неё только два-три параметра.
 
 ### 
-python, pandas, seaborn, scikit-learn, matplotlib, plotly, lightgbm, catboost, машинное обучение, визуализация, подбор параметров, градиентный бустинг, регрессия
+python, pandas, seaborn, scikit-learn, matplotlib, plotly, lightgbm, catboost, машинное обучение, визуализация, подбор параметров, градиентный бустинг, регрессия, анализ данных, группировка
