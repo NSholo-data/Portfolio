@@ -18,12 +18,12 @@ python,<br>
 pandas, <br>
 numpy, <br>
 seaborn, <br>
-sklearn.model_selection.train_test_split
-sklearn.linear_model.LinearRegression
-sklearn.metrics
-sklearn.metrics.mean_squared_error
-sklearn.metrics.accuracy_score
-scipy.stats as st
+sklearn.model_selection.train_test_split<br>
+sklearn.linear_model.LinearRegression<br>
+sklearn.metrics<br>
+sklearn.metrics.mean_squared_error<br>
+sklearn.metrics.accuracy_score<br>
+scipy.stats as st<br>
 регрессия, разработка бизнес-идеи, бутстреп, машинное обучение, визуализация
 
 ### Общий вывод
