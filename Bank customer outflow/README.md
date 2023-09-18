@@ -1,12 +1,22 @@
 # Прогноз оттока клиента банка
+[ipynb](https://github.com/NSholo-data/Portfolio/blob/main/Bank%20customer%20outflow/bank%20-%20customer%20outflow.ipynb)
 
 ### Описание проекта
-Из «Бета-Банка» стали уходить клиенты. Каждый месяц. Немного, но заметно. Банковские маркетологи посчитали: сохранять текущих клиентов дешевле, чем привлекать новых.
-Нужно спрогнозировать, уйдёт клиент из банка в ближайшее время или нет. 
+Исследовательский анализ исторических данных о поведении клиентов и расторжении договоров с банком и построение модели для прогноза оттока клиентов.
 
-### Задача
-На основании предоставленых исторических данных о поведении клиентов и расторжении договоров с банком построить модель с предельно большим значением F1-меры (довести метрику до 0.59). Проверьте F1-меру на тестовой выборке.
-Дополнительно измерить AUC-ROC, сравнить её значение с F1-мерой.
+### Инструменты и навыки
+pandas,<br> 
+seaborn, <br> 
+matplotlib, <br> 
+numpy, <br> 
+sklearn.model_selection.train_test_split, <br> 
+sklearn.preprocessing.StandardScaler, <br> 
+sklearn.linear_model.LogisticRegression, <br> 
+sklearn.tree.DecisionTreeClassifier, <br> 
+sklearn.ensemble.RandomForestClassifier, <br> 
+sklearn.metrics.accuracy_score, confusion_matrix, precision_score, recall_score, f1_score, <br> 
+sklearn.utils.shuffle, <br> 
+sklearn.metrics.roc_curve, roc_auc_score<br> 
 
-### Инструменты
-Pandas, Matplotlib, Seaborn, Scikit-learn
+### Общий вывод
+Проведен исследовательский анализ данных. Обучены три модели с учетом дисбаланса и без учета дисбаланса. Выбрана лучшая модель для прогноза оттока клиентов.
